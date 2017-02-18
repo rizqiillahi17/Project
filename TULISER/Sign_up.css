@@ -1,0 +1,91 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: proxima;
+}
+@font-face{
+	font-family: proxima;
+	src:url('Font/Mark Simonson - Proxima Nova Regular.otf');
+}
+body{
+	background-color: #f3f6fc;
+}
+a{
+	text-decoration: none;
+}
+.clear{
+	clear: both;
+}
+.container{
+	margin: 5% auto;
+}
+.header{
+	width: 85%;
+	margin:0 auto;
+	border-bottom: 1px solid #e3e3e3;
+	text-align: center;
+}
+.header img{
+	width: 15%;
+}
+.header h1{
+	color: #626161;
+	font-size: 50px;
+	margin-bottom: 1%;
+}
+.isi_header{
+	margin: 8% 0;
+}
+.login{
+	text-align: center;
+	margin: 5% 0;
+}
+.login h2{
+	color: #626161;
+	font-size: 30px;
+	padding-bottom: 2%;
+}
+input[type="text"] ,[type="password"], [type="email"]{
+	margin: 1% 0;
+	width: 25%;
+	height: 40px;
+	color: #000;
+	font-size: 20px;
+	background-color: #fff;
+	padding-left: 2%;
+	border-radius: 3px;
+	border:none;
+}
+input[type="submit"]{
+	margin: 1% 0;
+	width: 13.5%;
+	height: 40px;
+	color: #fff;
+	font-size: 20px;
+	background-color: #295396;
+	border-radius: 3px;
+	border:none;
+	cursor: pointer;
+}
+input[type="submit"].buat_akun{
+	background-color: #0ddc2f;
+}
+input[type="submit"]:hover{
+	background-color:#376cc2;
+}
+.footer{
+	background-color: #295396;
+	width: 100%;
+	color: #fff;
+	padding: 1% 0;
+}
+.footer_kiri{
+	float: left;
+}
+.footer_kanan{
+	text-align: right;
+}
+.container_footer{
+	width: 85%;
+	margin: 0 auto;
+}

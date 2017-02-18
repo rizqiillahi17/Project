@@ -1,0 +1,90 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: proxima;
+	color: #fff;
+}
+@font-face{
+	font-family: proxima;
+	src:url('Font/Mark Simonson - Proxima Nova Regular.otf');
+}
+body{
+	background:url(bg.jpg) ;
+}
+a{
+	text-decoration: none;
+}
+.clear{
+	clear: both;
+}
+.container{
+	width: 85%;
+	margin: 0 auto;
+}
+.header{
+	margin: 1% 0;
+	padding: 1%;
+}
+.head_kiri{
+	width: 70%;
+	display: inline-block;
+}
+.head_kiri img{
+	width: 25%;
+}
+.head_kanan{
+	float: right;
+	width: 30%;
+	display: inline-block;
+	margin-top: 25px;
+}
+.head_kanan img{
+	width: 8%;
+	border-radius: 50%;
+	background-color: #ddd;
+	margin: 0 5%;
+	display: inline-block;
+	float: left;
+	vertical-align: middle;
+}
+.icon {
+	margin:2% 0 0 2%;
+}
+.icon a{
+	font-size: 20px;
+	color: #fff;
+
+}
+.icon i{
+	font-size: 25px;
+	color: #fff;
+	padding: 0 10px;
+}
+.konten{
+	text-align: center;
+}
+.konten img	{
+	width: 25%;
+	display: block;
+	margin: 0 auto;
+}
+.konten a{
+	display: inline-block;
+	background-color: #295396;
+	margin: 4% 1%;
+	width: 15%;
+	padding: 10px;
+	border-radius: 5px;
+}
+.footer{
+	background-color: #295396;
+	width: 100%;
+	color: #e1dddd;
+	padding: 1% 0;
+}
+.footer_kiri{
+	float: left;
+}
+.footer_kanan{
+	text-align: right;
+}
