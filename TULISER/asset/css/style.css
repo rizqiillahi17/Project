@@ -1,0 +1,544 @@
+/*Default*/
+*{
+	margin: 0;
+	padding: 0;
+	font-family: proxima;
+}
+@font-face{
+	font-family: proxima;
+	src:url('../../Font/Mark Simonson - Proxima Nova Regular.otf');
+}
+@font-face{
+	font-family: proximabold;
+	src:url('../../Font/Mark Simonson - Proxima Nova Bold.otf');
+}
+body{
+	background-color: #f3f6fc;
+}
+a{
+	text-decoration: none;
+}
+.clear{
+	clear: both;
+}
+.container{
+	margin: 5% auto;
+}
+.menu{
+	padding: 2px 0;
+	background-color: #295396;
+   position: fixed;
+   z-index: 1000;
+}
+.menu_kiri{
+	float: left;
+	display: inline-block;
+	width: 40%;
+}
+.menu_kiri img{
+	width: 30%;
+}
+.menu_kanan{
+	width: 60%;
+	padding-top: 1.5%;
+	float: right;
+}
+.menu_kanan img{
+	width: 5%;
+	border-radius: 100%;
+	margin-left: 2%;
+	vertical-align: middle;
+}
+.menu_kanan a{
+	color: #fff;
+	padding: 5px 5%;
+	font-size: 20px;
+	transition:color 0.4s ease-in-out;
+}
+.menu_kanan a:hover{
+	color: #a8a8a8;
+}
+#username{
+	padding: 0 2%;
+}
+.menu_kanan i{
+	font-size: 25px;
+	color: #fff;
+	padding: 0 3%;
+	transition:color 0.4s ease-in-out;
+	cursor: pointer;
+}
+.menu_kanan i:hover{
+	color: #a8a8a8;
+}
+.header{
+	width: 85%;
+	margin:0 auto;
+	border-bottom: 1px solid #e3e3e3;
+	text-align: center;
+}
+.header img{
+	width: 15%;
+}
+.header h1{
+	color: #626161;
+	font-size: 50px;
+	margin-bottom: 1%;
+}
+.isi_header{
+	margin: 8% 0;
+}
+.footer{
+	background-color: #295396;
+	width: 100%;
+	color: #e1dddd;
+	padding: 1% 0;
+}
+.footer_kiri{
+	float: left;
+}
+.footer_kanan{
+	text-align: right;
+}
+.container_footer{
+	width: 85%;
+	margin: 0 auto;
+}
+
+/*signup&signin*/
+
+.login{
+	text-align: center;
+	margin: 5% 0;
+}
+.login h2{
+	color: #626161;
+	font-size: 30px;
+	padding-bottom: 2%;
+}
+input[type="text"] ,[type="password"] ,[type="email"]{
+	margin: 1% 0;
+	width: 25%;
+	height: 40px;
+	color: #000;
+	font-size: 20px;
+	background-color: #fff;
+	padding-left: 2%;
+	border-radius: 3px;
+	border:none;
+}
+input[type="submit"]{
+	margin: 1% 0;
+	width: 27%;
+	height: 40px;
+	color: #e1dddd;
+	font-size: 20px;
+	background-color: #295396;
+	border-radius: 3px;
+	border:none;
+	cursor: pointer;
+}
+.buat input[type="submit"]{
+	margin: 1% 0;
+	width: 13.5%;
+	height: 40px;
+	color: #fff;
+	font-size: 20px;
+	background-color: #295396;
+	border-radius: 3px;
+	border:none;
+	cursor: pointer;
+}
+input[type="submit"].buat_akun{
+	background-color: #0ddc2f;
+}
+input[type="submit"]:hover{
+	background-color:#376cc2;
+}
+
+
+/*Homecerita*/
+
+.container_homecerita{
+	width: 95%;
+	margin: 0 auto;
+}
+.kolom_tengah{
+	padding:10% 0 3% 0;
+	border-bottom: 1px solid #e3e3e3;
+}
+.kolom_tengah a{
+	color: #295396;
+	font-size: 40px;
+	font-family: proximabold;
+	vertical-align: middle;
+}
+.form_search{
+	background: #fff;
+	width: 60%;
+	border-radius: 30px;
+	display: inline-block;
+	margin: 0 6%;
+	border: 2px solid #ebebeb;
+	vertical-align: middle;
+}
+.form_search input[type="text"]{
+	color: #000;
+	width: 70%;
+	padding-left: 2%;
+	font-size: 20px;
+	background: none;
+	border: none;
+}
+.form_search i{
+	color: #dcd7d7;
+	padding-left: 3%;
+	font-size: 25px;
+	cursor: pointer;
+}
+.buat_tulisan{
+	width: 15%;
+	display: inline-block;
+	font-family: proximabold;
+}
+.buat_tulisan_wrap a{
+	color: #a8a8a8;
+	font-size: 25px;
+}
+.buat_tulisan_wrap i{
+	color: #a8a8a8;
+	font-size: 25px;
+	vertical-align: middle;
+}
+.buat_tulisan .buat_tulisan_wrap :hover{
+	color: #295396;
+}
+.konten{
+	margin: 2% 0;
+}
+.kiri{
+	width: 20%;
+	float: left;
+	display: inline-block;
+}
+.baca_lainnya{
+	background-color: #fff;
+	width: 70%;
+	padding: 4% 3% 3% 8%;
+	border-radius: 10px;
+	cursor:pointer; 
+}
+.baca_lainnya a{
+	color: #a8a8a8;
+	font-size: 20px;
+}
+.baca_lainnya i{
+	color: #a8a8a8;
+	font-size: 25px;
+	float: right;
+	margin-top: -5px;
+}
+.pilihan_kategori{
+	background-color: #fff;
+	width: 70%;
+	padding: 3% 3% 3% 8%;
+	border-radius: 10px;
+	cursor:pointer; 
+	margin: 5% 0;
+	overflow: hidden;
+}
+.pilihan_kategori a{
+	color: #a8a8a8;
+	font-size: 25px;
+	padding: 2%;
+}
+.pilihan_kategori ul,li{
+	list-style: none;
+	padding: 7% 2%;
+	color: #b5b5b5;
+	font-size: 18px;
+	width: 100%;
+	margin: 0;
+}
+.pilihan_kategori li:hover{
+	background-color: #295396;
+	color: #fff;
+}
+.tengah{
+	width: 60%;
+	display: inline-block;
+	background-color: #fff;
+	border-radius: 10px;
+	margin-bottom: 10%;
+	float: left;;
+}
+.tengah h2{
+	color: #a8a8a8;
+	padding: 5% 0;
+	width: 90%;
+	margin: 0 auto 5% auto;
+	border-bottom: 2px solid #efeded;
+}
+.tengah img{
+	width: 25%;
+}
+.kotak_ads{
+	width: 85%;
+	padding: 3%;
+	background-color: #295396;
+	margin: 5% auto;
+	border-radius: 10px;
+}
+.kotak_ads img{
+	float: left;
+	display: inline-block;
+}
+.desc{
+	width: 70%;
+	display: inline-block;
+	padding: 1px 2.5%;
+}
+.desc a,p,h3{
+	color: #fff;
+}
+.judul{
+	font-size: 25px;
+	padding-bottom: 1.5%;
+	display: inline-block;
+}
+.desc p{
+	padding-bottom: 3%;
+}
+.desc h3{
+	text-align: right;
+	padding-top:9%;
+}
+.desc .ket_user_ads{
+	display: inline-block;
+}
+.desc a:hover{
+	color: #0ddc2f;
+}
+.desc .ket_post_ads{
+	padding: 0;
+	width:20%;
+	display: inline-block;
+}
+.konten_lain{
+	text-align: center;
+}
+.kotak_konten{
+	width: 30%;
+	display: inline-block;
+	position: relative;
+	margin: 3% 0px;
+	
+}
+.follow{
+	background-color: #0ddc2f;
+	padding: 1% 2%;
+	border-radius: 5px;
+	margin-left: 1%;
+}
+.follow:hover{
+	background-color: #fff;
+}
+.kotak_konten img{
+	width: 80%;
+}
+.kotak_konten p,i{
+	color: #0ddc2f;
+	display: inline-block;
+	padding: 2% 3%;
+}
+.fa-star {
+	color: #ed8a19;
+}
+.kotak_konten .oren{
+	color: #ed8a19;
+}
+.kotak_konten:hover .keterangan{
+	display: block;
+}
+.keterangan{
+	position: absolute;
+	top: 0;
+	width: 195px;
+	height: 275px;
+	background-color: rgba(0,0,0,0.7);
+	right: 10%;
+	display:none;
+	transition:display 0.4s ease-in-out;
+}
+.keterangan a{
+	color: #fff;
+	vertical-align: middle;
+	display: block;
+	background-color: #295396;
+	width: 80%;
+	padding: 2%;
+	border-radius: 15px;
+	margin: 10% auto;
+	transition:background-color 0.4s ease-in;
+}
+.keterangan a:hover{
+	background-color: #0ddc2f;
+}
+.keterangan .judul{
+	background: none;
+}
+.keterangan .judul:hover{
+	background: none;
+	color: #0ddc2f;
+}
+.dalam_keterangan{
+	margin-top: 70px;
+}
+.ket_post{
+	width: 100%;
+	margin: 0;
+	text-align: left;
+}
+.ket_post .ket_user{
+	background: none;
+	color:#b5b5b5;
+	font-size: 18px;
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+	transition:color 0.4s ease-in;
+}
+.ket_post .ket_user:hover{
+	background: none;
+	color: #fff;
+}
+.ket_post p{
+	color:#b5b5b5;
+	font-size: 12px;
+}
+.nav_bawah{
+	margin: 15% 0 9% 0;
+	text-align: center;
+}
+.nav_bawah a{
+	margin: 0px 2%;
+	color: #e3e3e3;
+	border: 3px solid #e3e3e3;
+	padding: 2%;
+	border-radius: 20px;
+	transition:background-color 0.2s ease-in;
+}
+.nav_bawah a:hover{
+	background-color: #295396;
+	color: #fff;
+}
+.nav_bawah .fl{
+	border: none;
+	font-size: 25px;
+}
+.nav_bawah .fl:hover{
+	background: none;
+	color: #295396;
+}
+.kanan{
+	display: inline-block;
+	background-color: #fff;
+	width: 12%;
+	padding: 1% 5% 1% 1%;
+	border-radius: 10px;
+	cursor:pointer; 
+	margin-left: 2%;
+}
+.kanan a{
+	width: 100%;
+	display: inline-block;
+	color: #e3e3e3;
+	font-size: 20px;
+	padding: 2% 0 5% 0;
+	margin-bottom: 5%;
+	border-bottom: 1px solid #e3e3e3;
+}
+.kanan a:hover{
+	color: #295396;
+	border-color: #295396;
+}
+.kanan li:hover{
+	color: #295396;
+}
+.pop_up{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.8);
+	position: fixed;
+	top: 8%;
+	left: 0;
+	display: none;
+}
+.pop_up:target{
+	display: block;
+	
+}
+.pop_up i{
+	color: #fff;
+	font-size: 30px;
+	float: right;
+	cursor: pointer;
+	width: 2%;
+	padding: 1% 0 0 0;
+}
+.pop_up i:hover{
+	color: #ddd;
+}
+
+.kotak_popup{
+	width: 50%;
+	background-color: #fff;
+	margin: 10% auto;
+	padding: 5%;
+	border-radius: 3px;
+}
+.kotak_popup img{
+	width: 22%;
+}
+.desc_pop{
+	width: 70%;
+	display: inline-block;
+	padding: 0 2%;
+}
+.desc_pop a,p,h3{
+	color: #000;
+}
+.judul{
+	font-size: 25px;
+	padding-bottom: 3%;
+	display: inline-block;
+}
+.desc_pop p{
+	padding: 2% 0 5% 0;
+}
+.desc_pop .ket_user_ads{
+	display: inline-block;
+}
+.desc_pop a:hover{
+	color: #0ddc2f;
+}
+.desc_pop .ket_post_ads{
+	padding: 0;
+	width:20%;
+	display: inline-block;
+}
+.desc_pop h3{
+	color: #a3a3a3;
+	text-align: right;
+	padding-top:5%;
+}
+.follow_pop{
+	background-color: #0ddc2f;
+	padding: 1% 2%;
+	border-radius: 5px;
+	margin-left: 1%;
+}
+.desc_pop .follow_pop:hover{
+	background-color: #295396;
+	color: #fff;
+}
